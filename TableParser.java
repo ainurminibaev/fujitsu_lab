@@ -17,7 +17,8 @@ public interface TableParser {
      * 
      * @return таблицу
      */
-    String[][] parseMY(String path);
+
+    String[][] parseMYr123(String path);
 
     String[][] parse(File file);
 
